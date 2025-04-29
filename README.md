@@ -1,4 +1,3 @@
-# web-dev-challenge
 # UI Portfolio - Personal Portfolio Website
 
 A modern, responsive portfolio website built with HTML, CSS, and Bootstrap 5. 
