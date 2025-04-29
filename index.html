@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Watson - UI Designer & Web Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <i class="fa-solid fa-layer-group me-2"></i>UI Portfolio
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                <li><a class="dropdown-item" href="#skills">Skills</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="btn btn-primary hire-btn" href="#contact">Hire Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <p class="welcome-text">Hi, I'm John Watson</p>
+            <h1 class="title">Web Developer</h1>
+            <p class="description">
+              I love Design, Brand and Photography and have been working on my portfolio since 2015. I can give your business a new Creative start right away!
+            </p>
+            <div class="hero-buttons mt-4">
+              <a href="#" class="btn btn-primary me-3">Hire Me</a>
+              <a href="#" class="btn btn-outline-light">My Portfolio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="John Watson" class="hero-img">
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <div class="about-img">
+            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="John Watson" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="about-content">
+            <span class="subtitle">INTRODUCTION</span>
+            <h2 class="section-title">A Lead UI Designer & Web Developer Based In UK</h2>
+            <p class="mb-4">
+              I love Design, Brand and Photography and have been working on my portfolio since 2015. I can give your business a new Creative start right away! Contact me and we will discuss your projects!
+            </p>
+            
+            <div class="personal-info">
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <span class="info-title">Name:</span> John Watson
+                </div>
+                <div class="col-sm-6">
+                  <span class="info-title">From:</span> London, UK
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <span class="info-title">Email:</span> watson@email.com
+                </div>
+                <div class="col-sm-6">
+                  <span class="info-title">Phone:</span> +44 123 456 7890
+                </div>
+              </div>
+              
+              <div class="social-links">
+                <span class="me-3">Follow me on</span>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              </div>
+              
+              <div class="about-buttons mt-4">
+                <a href="#" class="btn btn-primary me-3">Hire Me</a>
+                <a href="#" class="btn btn-outline-primary">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">What I Do For You</h2>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>Get a professional website design that stands out from competitors. Let your site look perfect inside the web platform.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>App Development</h3>
+            <p>Get a professional mobile design that stands out from competitors. Let your app look perfect inside the mobile platform.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3>Photography</h3>
+            <p>Get a professional photo design that stands out from competitors. Let your images look perfect inside the design.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-outline-primary">More Services <i class="fas fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="skills-img mb-4 mb-lg-0">
+            <img src="https://images.pexels.com/photos/3184657/pexels-photo-3184657.jpeg" alt="Skills" class="img-fluid">
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="skills-content">
+            <span class="subtitle">MY SPECIALIZATION</span>
+            <h2 class="section-title">My Featured Skills</h2>
+            
+            <p class="mb-4">
+              I specialize in Branding and Strategy, and am passionate about creating seamless Portfolio work. And I always ready to discuss the projects with my Creativity.
+            </p>
+            
+            <div class="skill-item">
+              <h5>UI/UX Design</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <h5>Web Technologies</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <h5>Graphic Design</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 78%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <h5>Responsive Web Design</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="section-padding bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="expertise-content pe-lg-5">
+            <div class="expertise-item">
+              <div class="expertise-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="expertise-info">
+                <h4>Web Development</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at purus id justo sit.</p>
+              </div>
+            </div>
+            
+            <div class="expertise-item">
+              <div class="expertise-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <div class="expertise-info">
+                <h4>Design Trends</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at purus id justo sit.</p>
+              </div>
+            </div>
+            
+            <div class="expertise-item">
+              <div class="expertise-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="expertise-info">
+                <h4>Research & Analysis</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at purus id justo sit.</p>
+              </div>
+            </div>
+            
+            <div class="expertise-item">
+              <div class="expertise-icon">
+                <i class="fas fa-headset"></i>
+              </div>
+              <div class="expertise-info">
+                <h4>Customer Support</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at purus id justo sit.</p>
+              </div>
+            </div>
+            
+            <div class="expertise-item">
+              <div class="expertise-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="expertise-info">
+                <h4>Responsive Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at purus id justo sit.</p>
+              </div>
+            </div>
+            
+            <div class="expertise-item">
+              <div class="expertise-icon">
+                <i class="fas fa-pencil-alt"></i>
+              </div>
+              <div class="expertise-info">
+                <h4>PSD Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at purus id justo sit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 text-center">
+          <div class="expertise-img">
+            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="John Watson" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section id="stats" class="section-padding">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 col-6 mb-4 mb-md-0">
+          <div class="stat-item">
+            <h2 class="counter">135</h2>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-6 mb-4 mb-md-0">
+          <div class="stat-item">
+            <h2 class="counter">225</h2>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-6">
+          <div class="stat-item">
+            <h2 class="counter">115</h2>
+            <p>Awards Winning</p>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-6">
+          <div class="stat-item">
+            <h2 class="counter">272</h2>
+            <p>Cup of Coffee</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">My Success Work</h2>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg" alt="Portfolio" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h4>Web Design</h4>
+                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg" alt="Portfolio" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h4>App Design</h4>
+                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg" alt="Portfolio" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h4>Photography</h4>
+                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg" alt="Portfolio" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h4>UI Design</h4>
+                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/6804604/pexels-photo-6804604.jpeg" alt="Portfolio" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h4>Web App</h4>
+                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg" alt="Portfolio" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h4>Branding</h4>
+                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section id="clients" class="section-padding clients-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="client-logo">
+            <img src="images/Gluten free.png" alt="place-holder" class="img-fluid" height="120px" width="120px">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="client-logo">
+            <img src="images/spa (3).png" alt="place-holder" class="img-fluid" height="120px" width="120px">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="client-logo">
+            <img src="images/spa (2).png" alt="place-holder" class="img-fluid" height="120px" width="120px">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="client-logo">
+            <img src="images/Natural.png" alt="place-holder" class="img-fluid" height="120px" width="120px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer-logo mb-4">
+              <a href="index.html">
+                <i class="fa-solid fa-layer-group me-2"></i>UI Portfolio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="copyright">
+              © 2023 UI Portfolio. All Rights Reserved.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-social text-md-end">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
