@@ -57,7 +57,7 @@ The website is fully responsive and optimized for:
 
 2. Navigate to the project directory:
    ```bash
-   cd ui-portfolio
+   cd web-dev-challenge
    ```
 
 3. Open `index.html` in your browser or use a local server.
